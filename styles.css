@@ -1,0 +1,40 @@
+html {
+    background-color: rgb(230, 182, 144);
+}
+
+body {
+    background-color: rgb(250, 238, 218);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+
+.body header{
+    background-color: rgb(61, 138, 216);
+    padding-bottom:500px;
+}
+
+body > header > nav a {
+    font-size: 1em;
+    margin: 0.4em 0;
+    padding: 5px;
+}
+
+nav.horizontal ul li {
+    background-color: rgb(18, 31, 102);
+    font-size: 0.9em;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav.horizontal a:link,
+nav.horizontal a:visited {
+    color: white;
+}
+
+footer {
+    color: rgb(186, 186, 156);
+    background-color: rgb(44, 91, 169);
+    font-size: 0.9em;
+    padding: 10px;
+    text-align: center;
+}
